@@ -1,0 +1,23 @@
+{
+  "name": "freelance.ru-helper-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByMsx/freelance.ru-helper-chrome-extension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ByMsx/freelance.ru-helper-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/ByMsx/freelance.ru-helper-chrome-extension#readme",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Freelance.ru Helper",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [ "*://freelance.ru/*" ],
+      "js": [ "thirdparty/jquery-3.3.1.min.js", "storage-key-names.js", "helpers.js", "content.js" ]
+    }
+  ],
+  "permissions": [
+    "https://freelance.ru/*",
+    "storage",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Freelance.ru Helper",
+    "default_popup": "pages/popup/popup.html"
+  }
+}
